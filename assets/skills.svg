@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Skills and strengths">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#17143a"/>
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+    <linearGradient id="gGreen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6ee7b7"/><stop offset="1" stop-color="#059669"/></linearGradient>
+    <linearGradient id="gPurple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="gPink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9a8d4"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+    <clipPath id="round"><rect width="1000" height="230" rx="22"/></clipPath>
+    <filter id="soft"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/></filter>
+  </defs>
+
+  <g clip-path="url(#round)" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect width="1000" height="230" fill="url(#bg)"/>
+    <text x="50" y="44" font-size="22" font-weight="700" fill="#e2e8f0">&#128170; Core Strengths &amp; Mindset</text>
+    <line x1="50" y1="56" x2="950" y2="56" stroke="#ffffff" stroke-opacity="0.1"/>
+
+    <!-- Card 1: Quick Learner -->
+    <g transform="translate(50, 72)" filter="url(#soft)">
+      <rect width="205" height="135" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="#60a5fa" stroke-opacity="0.45"/>
+      <circle cx="34" cy="34" r="16" fill="url(#gBlue)" fill-opacity="0.2"/>
+      <!-- Lightning icon -->
+      <path d="M34 23L27 34h6l-2 9 8-11h-6z" fill="#60a5fa"/>
+      <text x="60" y="32" font-size="16" font-weight="700" fill="#f1f5f9">Quick Learner</text>
+      <text x="60" y="48" font-size="11" font-weight="600" fill="#60a5fa">ADAPTABLE &amp; CURIOUS</text>
+      <text x="18" y="80" font-size="12" fill="#94a3b8">Rapidly absorbs modern</text>
+      <text x="18" y="98" font-size="12" fill="#94a3b8">tools, frameworks &amp; APIs</text>
+      <text x="18" y="116" font-size="12" fill="#94a3b8">to ship real solutions.</text>
+    </g>
+
+    <!-- Card 2: DSA & Logic -->
+    <g transform="translate(275, 72)" filter="url(#soft)">
+      <rect width="205" height="135" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="34" cy="34" r="16" fill="url(#gGreen)" fill-opacity="0.2"/>
+      <!-- Brain/Nodes icon -->
+      <path d="M28 34a6 6 0 1 1 12 0 6 6 0 0 1-12 0zm6-7v-3m0 20v-3m-7-7h-3m20 0h-3" stroke="#34d399" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <text x="60" y="32" font-size="16" font-weight="700" fill="#f1f5f9">Problem Solving</text>
+      <text x="60" y="48" font-size="11" font-weight="600" fill="#34d399">DSA &amp; OOP LOGIC</text>
+      <text x="18" y="80" font-size="12" fill="#94a3b8">Strong foundational grasp</text>
+      <text x="18" y="98" font-size="12" fill="#94a3b8">of algorithms, recursion,</text>
+      <text x="18" y="116" font-size="12" fill="#94a3b8">time &amp; space complexity.</text>
+    </g>
+
+    <!-- Card 3: Team Player -->
+    <g transform="translate(500, 72)" filter="url(#soft)">
+      <rect width="205" height="135" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="#a78bfa" stroke-opacity="0.45"/>
+      <circle cx="34" cy="34" r="16" fill="url(#gPurple)" fill-opacity="0.2"/>
+      <!-- Communication icon -->
+      <path d="M26 38v-2a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v2M34 29a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <text x="60" y="32" font-size="16" font-weight="700" fill="#f1f5f9">Team Player</text>
+      <text x="60" y="48" font-size="11" font-weight="600" fill="#a78bfa">COMMUNICATION</text>
+      <text x="18" y="80" font-size="12" fill="#94a3b8">Effective documentation,</text>
+      <text x="18" y="98" font-size="12" fill="#94a3b8">clarity in discussions,</text>
+      <text x="18" y="116" font-size="12" fill="#94a3b8">and collaborative spirit.</text>
+    </g>
+
+    <!-- Card 4: Industry Mindset -->
+    <g transform="translate(725, 72)" filter="url(#soft)">
+      <rect width="225" height="135" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="#f472b6" stroke-opacity="0.45"/>
+      <circle cx="34" cy="34" r="16" fill="url(#gPink)" fill-opacity="0.2"/>
+      <!-- Target/Rocket icon -->
+      <path d="M34 23l5 5-8 8-3-1-1-3 7-9zm-5 13l-4 4M41 21l2 2" stroke="#f472b6" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <text x="60" y="32" font-size="16" font-weight="700" fill="#f1f5f9">Industry Ready</text>
+      <text x="60" y="48" font-size="11" font-weight="600" fill="#f472b6">PRACTICAL FOCUS</text>
+      <text x="18" y="80" font-size="12" fill="#94a3b8">Hands-on internship work</text>
+      <text x="18" y="98" font-size="12" fill="#94a3b8">in AI/ML &amp; infrastructure</text>
+      <text x="18" y="116" font-size="12" fill="#94a3b8">ready for production code.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-label="Tech stack and focus areas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#17143a"/>
+    </linearGradient>
+    <linearGradient id="gB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+    <linearGradient id="gP" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="gK" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9a8d4"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+    <linearGradient id="gY" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <linearGradient id="gG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6ee7b7"/><stop offset="1" stop-color="#059669"/></linearGradient>
+    <linearGradient id="gO" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdba74"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
+    <clipPath id="round"><rect width="1000" height="360" rx="22"/></clipPath>
+    <filter id="soft"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/></filter>
+  </defs>
+  <g clip-path="url(#round)" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect width="1000" height="360" fill="url(#bg)"/>
+    <text x="50" y="52" font-size="26" font-weight="700" fill="#e2e8f0">&#129520; Tech Stack &amp; Focus Areas</text>
+    <line x1="50" y1="66" x2="950" y2="66" stroke="#ffffff" stroke-opacity="0.1"/>
+
+    <!-- Row 1 -->
+    <!-- Python -->
+    <g transform="translate(50,92)" filter="url(#soft)">
+      <rect width="200" height="115" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#60a5fa" stroke-opacity="0.5"/>
+      <g transform="translate(76,16)">
+        <path d="M24 2C12 2 13 7 13 7v7h12v2H8S1 15 1 27s6 11 6 11h4v-6s0-6 6-6h12s6 0 6-6V9S36 2 24 2z" fill="url(#gB)"/>
+        <path d="M26 54c12 0 11-5 11-5v-7H25v-2h17s7 1 7-11-6-11-6-11h-4v6s0 6-6 6H21s-6 0-6 6v10S14 54 26 54z" fill="url(#gY)"/>
+        <circle cx="18" cy="10" r="2.2" fill="#0b1020"/><circle cx="32" cy="46" r="2.2" fill="#0b1020"/>
+        <animateTransform attributeName="transform" type="translate" values="76,16;76,11;76,16" dur="3s" repeatCount="indefinite"/>
+      </g>
+      <text x="100" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">Python</text>
+      <text x="100" y="106" text-anchor="middle" font-size="12" fill="#94a3b8">Primary language</text>
+    </g>
+
+    <!-- DSA -->
+    <g transform="translate(275,92)" filter="url(#soft)">
+      <rect width="200" height="115" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#34d399" stroke-opacity="0.5"/>
+      <g transform="translate(70,14)" stroke="#6ee7b7" stroke-width="2.5" fill="none">
+        <path d="M30 14L10 36M30 14L50 36M10 36L2 54M10 36L18 54M50 36L42 54M50 36L58 54"/>
+        <g fill="url(#gG)" stroke="none">
+          <circle cx="30" cy="12" r="8"/><circle cx="10" cy="36" r="7"/><circle cx="50" cy="36" r="7"/>
+          <circle cx="2" cy="54" r="5"/><circle cx="18" cy="54" r="5"/><circle cx="42" cy="54" r="5"/><circle cx="58" cy="54" r="5"/>
+        </g>
+      </g>
+      <text x="100" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">DSA</text>
+      <text x="100" y="106" text-anchor="middle" font-size="12" fill="#94a3b8">Data Structures &amp; Algorithms</text>
+    </g>
+
+    <!-- OOP -->
+    <g transform="translate(500,92)" filter="url(#soft)">
+      <rect width="200" height="115" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <g transform="translate(60,14)">
+        <rect x="0" y="0" width="80" height="22" rx="4" fill="url(#gP)"/>
+        <rect x="0" y="22" width="80" height="14" rx="0" fill="#ffffff" fill-opacity="0.12"/>
+        <rect x="0" y="36" width="80" height="14" rx="0" fill="#ffffff" fill-opacity="0.07"/>
+        <rect x="10" y="29" width="40" height="3" rx="1.5" fill="#c4b5fd"/>
+        <rect x="10" y="43" width="55" height="3" rx="1.5" fill="#c4b5fd"/>
+        <rect x="8" y="8" width="30" height="5" rx="2.5" fill="#fff" fill-opacity="0.8"/>
+        <path d="M40 50v8" stroke="#c4b5fd" stroke-width="2.5"/>
+        <path d="M34 58l6-8 6 8z" fill="#c4b5fd"/>
+        <rect x="14" y="60" width="52" height="10" rx="3" fill="url(#gP)" fill-opacity="0.7"/>
+      </g>
+      <text x="100" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">OOP</text>
+      <text x="100" y="106" text-anchor="middle" font-size="12" fill="#94a3b8">Object-Oriented Programming</text>
+    </g>
+
+    <!-- AI/ML -->
+    <g transform="translate(725,92)" filter="url(#soft)">
+      <rect width="225" height="115" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#f472b6" stroke-opacity="0.5"/>
+      <g transform="translate(72,14)">
+        <g stroke="#f9a8d4" stroke-opacity="0.7" stroke-width="1.6">
+          <path d="M10 10L40 10M10 10L40 30M10 10L40 50M10 30L40 10M10 30L40 30M10 30L40 50M10 50L40 10M10 50L40 30M10 50L40 50"/>
+          <path d="M40 10L70 30M40 30L70 30M40 50L70 30"/>
+        </g>
+        <g fill="url(#gK)">
+          <circle cx="10" cy="10" r="6"/><circle cx="10" cy="30" r="6"/><circle cx="10" cy="50" r="6"/>
+          <circle cx="40" cy="10" r="6"/><circle cx="40" cy="30" r="6"/><circle cx="40" cy="50" r="6"/>
+          <circle cx="70" cy="30" r="8"><animate attributeName="r" values="7;10;7" dur="2.4s" repeatCount="indefinite"/></circle>
+        </g>
+      </g>
+      <text x="112" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">AI / ML</text>
+      <text x="112" y="106" text-anchor="middle" font-size="12" fill="#94a3b8">Internship domain</text>
+    </g>
+
+    <!-- Row 2 -->
+    <!-- Git -->
+    <g transform="translate(50,225)" filter="url(#soft)">
+      <rect width="200" height="115" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#fb923c" stroke-opacity="0.5"/>
+      <g transform="translate(70,14)">
+        <rect x="6" y="6" width="48" height="48" rx="8" transform="rotate(45 30 30)" fill="url(#gO)"/>
+        <g stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none">
+          <path d="M24 22v18M24 30h10l4-6"/>
+        </g>
+        <g fill="#fff"><circle cx="24" cy="20" r="4"/><circle cx="24" cy="40" r="4"/><circle cx="39" cy="22" r="4"/></g>
+      </g>
+      <text x="100" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">Git</text>
+      <text x="100" y="106" text-anchor="middle" font-size="12" fill="#94a3b8">Version control</text>
+    </g>
+
+    <!-- GitHub -->
+    <g transform="translate(275,225)" filter="url(#soft)">
+      <rect width="200" height="115" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#cbd5e1" stroke-opacity="0.5"/>
+      <g transform="translate(70,14)">
+        <circle cx="30" cy="30" r="27" fill="#e2e8f0"/>
+        <circle cx="30" cy="30" r="22" fill="#0b1020"/>
+        <g stroke="#e2e8f0" stroke-width="2.6" stroke-linecap="round" fill="none">
+          <path d="M23 20v20M23 29c0-6 12-2 12-9"/>
+        </g>
+        <g fill="#e2e8f0"><circle cx="23" cy="19" r="3.4"/><circle cx="23" cy="41" r="3.4"/><circle cx="35" cy="19" r="3.4"/></g>
+      </g>
+      <text x="100" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">GitHub</text>
+      <text x="100" y="106" text-anchor="middle" font-size="12" fill="#94a3b8">Collaboration (basics)</text>
+    </g>
+
+    <!-- Problem solving -->
+    <g transform="translate(500,225)" filter="url(#soft)">
+      <rect width="200" height="115" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#fbbf24" stroke-opacity="0.5"/>
+      <g transform="translate(70,10)">
+        <path d="M30 4a20 20 0 0 0-10 37v7h20v-7A20 20 0 0 0 30 4z" fill="url(#gY)"/>
+        <rect x="21" y="52" width="18" height="5" rx="2.5" fill="#fbbf24"/>
+        <rect x="24" y="60" width="12" height="4" rx="2" fill="#f59e0b"/>
+        <path d="M22 24l5 6 4-9 5 8" stroke="#0b1020" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <g stroke="#fde68a" stroke-width="2.4" stroke-linecap="round"><path d="M30 -4v-2M8 6L6 4M52 6l2-2M2 24H0M58 24h2"/></g>
+      </g>
+      <text x="100" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">Problem Solving</text>
+      <text x="100" y="106" text-anchor="middle" font-size="12" fill="#94a3b8">Logical &amp; analytical thinking</text>
+    </g>
+
+    <!-- Learning -->
+    <g transform="translate(725,225)" filter="url(#soft)">
+      <rect width="225" height="115" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#60a5fa" stroke-opacity="0.5"/>
+      <g transform="translate(78,14)">
+        <path d="M34 4L2 20l32 16 32-16z" fill="url(#gB)"/>
+        <path d="M14 30v14c0 6 40 6 40 0V30l-20 10z" fill="#3b82f6" fill-opacity="0.7"/>
+        <path d="M66 20v22" stroke="#93c5fd" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="66" cy="46" r="3.5" fill="#93c5fd"/>
+      </g>
+      <text x="112" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">Always Learning</text>
+      <text x="112" y="106" text-anchor="middle" font-size="12" fill="#94a3b8">B.Tech IT &#8226; UIET Kanpur</text>
+    </g>
+  </g>
+</svg>
